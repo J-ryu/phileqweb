@@ -1,0 +1,1 @@
+[11-Jul-2018 21:46:43 America/Denver] PHP Fatal error:  Call to undefined function removeXSS() in /home1/dvrsenet/public_html/philequity-dev/wp-content/themes/philequity/inc/pefi.php on line 7

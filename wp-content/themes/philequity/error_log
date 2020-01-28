@@ -1,0 +1,6 @@
+[14-Sep-2018 02:29:56 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/dvrsenet/public_html/philequity-dev/wp-content/themes/philequity/index.php on line 15
+[14-Sep-2018 02:36:21 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/dvrsenet/public_html/philequity-dev/wp-content/themes/philequity/index.php on line 15
+[14-Sep-2018 02:37:46 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/dvrsenet/public_html/philequity-dev/wp-content/themes/philequity/index.php on line 15
+[17-Sep-2018 13:39:58 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/dvrsenet/public_html/philequity-dev/wp-content/themes/philequity/index.php on line 15
+[17-Sep-2018 13:39:59 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/dvrsenet/public_html/philequity-dev/wp-content/themes/philequity/index.php on line 15
+[17-Sep-2018 13:47:07 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/dvrsenet/public_html/philequity-dev/wp-content/themes/philequity/index.php on line 15

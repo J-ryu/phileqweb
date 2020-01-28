@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SSA//Simply Schedule Appointments 1.3.5.3//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Philequity Management\, Inc.
+X-ORIGINAL-URL:https://52.220.108.162/
+X-WR-CALDESC:Appointments from Philequity Management\, Inc.
+TRANSP:OPAQUE
+BEGIN:VEVENT
+UID:ssa_1customer
+DTSTAMP:20191118T120943Z
+LOCATION:
+DESCRIPTION:\nCancel/Reschedule link: \nhttps://52.220.108.162/appointments/change/9731d5c259f9e1c61b5b1bb2827680141 \n
+URL;VALUE=URI:
+SUMMARY:Consultation Phone Call (Philequity Management\, Inc.)
+DTSTART:20191120T010000Z
+DTEND:20191120T013000Z
+END:VEVENT
+END:VCALENDAR
