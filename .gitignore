@@ -2,6 +2,16 @@
 # ignore everything in the root except the "wp-content" directory.
 !wp-content/
 
+.htaccess
+wp-config.php
+sitemap.xml
+sitemap.xml
+sitemap.xml.gz
+html/*
+wp-admin/*
+wp-includes/*
+
+
 wp-content/plugins/*
 wp-content/updraft/*
 wp-content/ai1wm-backups/*
