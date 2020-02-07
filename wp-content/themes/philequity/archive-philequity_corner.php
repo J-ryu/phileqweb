@@ -14,76 +14,52 @@
 
 get_header();
 ?>
- <!-- start page-title -->
- <section class="page-title" style="background: url(<?php echo get_theme_file_uri('/assets/images/pg-title/philcorner.jpg'); ?>) center center/cover no-repeat local;">
-            <div class="container">
-                <!--<div class="row">-->
-                    <div class="col col-xs-12">
-                        <h2 style="color:midnightblue;">Philequity Corners</h2>
-                        <!--<ol class="breadcrumb">
-                            <li><a href="<?php echo site_url() ?>">Home</a></li>
-                            <li>Philequity Corners</li>
-                        </ol>-->
-                    </div>
-                <!--</div>--> <!-- end row -->
-            </div> <!-- end container -->
- </section>        
-        <!-- end page-title -->
-        
-		  <section class="blog-with-sidebar-section blog-list section-padding">
-            <div class="container">
-
-             
-
-             
-			 <div class="row">
-
-				  <div class="news-grids col col-lg-12 col-lg-offset-1  col-md-12 ">
-		
-					  	<?php
-		if ( have_posts()) :
-
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<?php
-			endif;
+<!-- start page-title -->
+<section class="page-title" style="background: url(<?php echo get_theme_file_uri('/assets/images/pg-title/philcorner.jpg'); ?>) center center/cover no-repeat local;">
+  <div class="container">
+    <div class="col col-xs-12">
+      <h2 style="color:midnightblue;">Philequity Corners</h2>
+    </div>
+  </div> <!-- end container -->
+</section>
+<!-- end page-title -->
+<section class="blog-with-sidebar-section blog-list section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="news-grids col col-md-12">
+        <?php if ( have_posts()) :
+        if ( is_home() && ! is_front_page() ) : ?>
+        <?php endif;
 
 			/* Start the Loop */
-			while ( have_posts() ) :
-                the_post();
-                
-
-				?>  
-                <div class="grid">
-                        
-                         <div class="entry-body">
-                                <div class="entry-header">
-                                    <span class="date"><?php the_time('M j, Y');?>  </span> 	
-                                    <p>By: <?php the_author(); ?> </p>
-                                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                                    
-                                </div>
-                                <div class="entry-details">
-                                    <p><?php the_excerpt(); ?></p>
-                                </div>
-                                <div class="entry-meta">
-                                  
-                                 <!--    <a  class="theme-btn-s2" target="_blank" href="<?php //the_field('pdf_file'); ?>" >See More</a> -->
-                                 <a  class="theme-btn-s2" target="_blank" href="<?php the_permalink(); ?>" >See More</a>
-                                     <!-- <a href="#" class="comments"><i class="fa fa-comments"></i> 10 Comments</a> -->
-
-                                </div>
-                                
-                        </div>
-                 </div>  
-				<?php
+			while ( have_posts() ) : the_post(); ?>
+        <div class="grid">
+          <div class="entry-media">
+            <img src="<?php echo $thumbnail[0] ?>" alt="">
+          </div>
+          <div class="entry-body">
+            <div class="entry-header">
+              <span class="date"><?php the_time('M j, Y');?> </span>
+              <p>By: <?php the_author(); ?> </p>
+              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            </div>
+            <div class="entry-details">
+              <p><?php the_excerpt(); ?></p>
+            </div>
+            <div class="entry-meta">
+              <!--    <a  class="theme-btn-s2" target="_blank" href="<?php //the_field('pdf_file'); ?>" >See More</a> -->
+              <a class="theme-btn-s2"  href="<?php the_permalink(); ?>">Read More</a>
+              <!-- <a href="#" class="comments"><i class="fa fa-comments"></i> 10 Comments</a> -->
+            </div>
+          </div>
+        </div>
+        <?php
 			endwhile;
             ?>
-            <div class="pagination-wrapper">
-                    <?php philequity_paging_nav(); ?>
-            </div>
-                             
-            <?php
+        <div class="pagination-wrapper">
+          <?php philequity_paging_nav(); ?>
+        </div>
+        <?php
 		
 
 		else :
@@ -91,24 +67,14 @@ get_header();
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif; ?>
-
-
-			
-				 
-                 </div> <!-- end blog-content -->
-                 
-                 <!-- <?php get_sidebar() ?> -->
-
-			 </div>  <!-- end row -->
-				
-			</div> <!-- end container -->
-        </section>
-		<!-- end blog-with-sidebar-section -->  
+      </div> <!-- end blog-content -->
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+<!-- end blog-with-sidebar-section -->
 <?php
 
 get_footer();
 
 ?>
-
 <!--MODAL-->
-

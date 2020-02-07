@@ -64,7 +64,7 @@ get_header();
                                 </div>
                                 <div class="entry-meta">
                                   
-                                    <a  class="theme-btn-s2" target="_blank" href="<?php the_field('pdf_file'); ?>" >Vantage Point</a>
+                                    <a  class="theme-btn-s2" href="<?php the_permalink(); ?>" >Read More </a>
                                     <!-- <a href="#" class="comments"><i class="fa fa-comments"></i> 10 Comments</a> -->
                                 </div>
                         </div>

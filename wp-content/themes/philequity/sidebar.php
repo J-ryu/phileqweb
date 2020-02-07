@@ -78,8 +78,8 @@ for($i=0;$i<$row;$i++){
 
 </section>
 
-
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
+	
 
 
 
