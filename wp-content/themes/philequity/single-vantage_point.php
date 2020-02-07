@@ -17,7 +17,7 @@ get_header();
                     <h2><span style="color: #fff">Vantage Points</span></h2>
                     <ol class="breadcrumb">
                             <li><a href="index.html">Home</a></li>
-                            <li>Vantage Details</li>
+                            <li>Vantage Detail</li>
                         </ol>
                     <!-- <h3 style="color: darkcyan">Issue Date: June 16, 2015</h3> -->
                     </div>
