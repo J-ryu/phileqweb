@@ -327,7 +327,7 @@ if($mutualFund&&$mutual_day&&$mutual_month&&$mutual_year){
             <div class="container">
              <!--<div class="row">-->
                     <div class="col col-xs-12">
-                        <h2>Historical Returns</h2>
+                        <h2>Fund Returns</h2>
                           
                     </div>
              <!--</div>--> 
@@ -395,8 +395,8 @@ if($mutualFund&&$mutual_day&&$mutual_month&&$mutual_year){
                                                 <td colspan="2">
 
                                                     <div>
-                                                    <button style="margin:10px 0;"  class="btn btn-primary pull-right" name="computeReturn"  id="computeReturn" type="submit">
-                                                        <span class="fa fa-calculator"></span> Compute Return 
+                                                    <button style="margin:10px 0;" align="middle"  class="btn btn-primary" name="computeReturn"  id="computeReturn" type="submit">
+                                                        <span class="fa fa-calculator"></span> Calculate 
                                                         </button>
                                                     </div>  
 

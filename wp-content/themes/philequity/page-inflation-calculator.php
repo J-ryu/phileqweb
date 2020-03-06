@@ -41,25 +41,24 @@ get_header();
                 <div class="row">
                     <div class="col col-md-7">
                         <div class="about-details">
-                        <ul>
-                            <li>Ever wonder why prices keep rising from one year to the next? Ever heard </li> 
-                            <li>your grandmother say, "When I was your age, a sack of rice only cost 10 pesos"</li>  
-                            <li>or "10 years ago, a loaf of bread only a fraction of what it costs today."?</li> 
-                            <li>your grandmother say, "When I was your age, a sack of rice only cost 10 pesos"</li>  
-            
-                        </ul>
+                        <p>
+                            Ever wonder why prices keep rising from one year to the next? Ever heard 
+                            your grandmother say, "When I was your age, a sack of rice only cost 10 pesos"  
+                            or "10 years ago, a loaf of bread only a fraction of what it costs today."?
+                            your grandmother say, "When I was your age, a sack of rice only cost 10 pesos."?            
+                        </p>
+				<br>
                           </div>
-                          <h3>What is Inflation</h3>
-                            <p>Inflation is the rate at which the general cost of goods and services rise over a period of time.
+                              <p>Inflation is the rate at which the general cost of goods and services rise over a period of time.
                               In other words, inflation may be the culprit behind those rising prices, causing your 
-                              purchasing power to decrease. Let's play with some numbers:
+                              purchasing power to decrease. Let's play with some numbers.
                             <p>
                       
                     </div>
 
                     <div class="col col-md-5">
                         <div class="about-chart">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about-chart-2.png" alt="">
+                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about-chart-2.png" alt="" align="right">
                         </div>
                     </div>
                 </div>
@@ -96,7 +95,7 @@ get_header();
  							'2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018' ],
 
                                                datasets: [{
-                                               label: '% Rate',
+                                               label: '% Inflation Rate',
                                                data: [6.6,5.4,2.7, 2.3, 4.8 , 6.6, 5.5, 3.0,8.2,4.3,3.8,4.7,3.1,2.6,3.6,0.7,1.3,2.9,5.2],
                                                    backgroundColor: [
                                                    'rgba(255, 99, 132, 0.2)',
@@ -105,7 +104,7 @@ get_header();
                                                    'rgba(75, 192, 192, 0.2)',
                                                    'rgba(153, 102, 255, 0.2)',
                                                    'rgba(255, 159, 64, 0.2)',
-						    'rgba(255, 99, 132, 0.2)',
+						   'rgba(255, 99, 132, 0.2)',
                                                    'rgba(54, 162, 235, 0.2)',
                                                    'rgba(255, 206, 86, 0.2)',
                                                    'rgba(75, 192, 192, 0.2)',

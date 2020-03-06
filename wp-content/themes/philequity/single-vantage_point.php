@@ -27,7 +27,8 @@ get_header();
       <div class="news-grids col col-lg-8 col-lg-offset-1 col-lg-push-3 col-md-8 col-md-push-4">
         <div class="post">
           <div class="post-title-meta">
-            <?  while ( have_posts() ) : the_post(); ?>
+          
+            <?php while ( have_posts() ) : the_post(); ?>
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <ul class="meta-info">
               <li><a href="#">By: <?php the_author(); ?> </a></li>
@@ -48,14 +49,17 @@ get_header();
           </div> <!-- end tag-share -->
           <div class="post-body">
             <?php while ( have_posts() ) : the_post(); ?>
-            <?php the_content(); endwhile; ?>
+            <?php the_content();  ?>
           </div>
         </div> <!-- end post -->
       </div> <!-- end blog-content -->
-      <?php get_sidebar() ?>
+      <?php get_sidebar(); ?>
     </div>
   </div> <!-- end container -->
 </section>
+<?php
+            endwhile; // End of the loop.
+                ?>
 <!-- end blog-with-sidebar-section -->
 <?php
 get_footer();

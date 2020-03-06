@@ -42,14 +42,14 @@
                                     <i class="fi icon-calculator-report-two"></i>
                                 </div>
                                 <div class="details">
-                                <h3>Historical Returns</h3>
+                                <h3>Fund Returns</h3>
                                 </div>
                               </a>
                                 
                         </div>
 
 
-                          <div class="grid-transact" style="
+                         <!-- <div class="grid-transact" style="
                             height: 400px !important;
                             overflow: hidden !important;">
                             <a href="<?php echo site_url('/return-calculator-potential')?>">
@@ -62,21 +62,9 @@
                             </div>
                             </a>
                             
-                        </div>
+                        </div>-->
 
-                      
-
-
-                      
-                        
-
-
-                    
-
-                     
-
-                    
-                                                    
+                           
                         </div>
                     </div>
 

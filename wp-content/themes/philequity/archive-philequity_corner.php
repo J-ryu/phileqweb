@@ -15,10 +15,10 @@
 get_header();
 ?>
 <!-- start page-title -->
-<section class="page-title" style="background: url(<?php echo get_theme_file_uri('/assets/images/pg-title/philcorner.jpg'); ?>) center center/cover no-repeat local;">
+<section class="page-title" style="background: url(<?php echo get_theme_file_uri('/assets/images/pg-title/vantagepoint.jpg'); ?>) center center/cover no-repeat local;">
   <div class="container">
     <div class="col col-xs-12">
-      <h2 style="color:midnightblue;">Philequity Corners</h2>
+      <h2>Philequity Corners</h2>
     </div>
   </div> <!-- end container -->
 </section>
